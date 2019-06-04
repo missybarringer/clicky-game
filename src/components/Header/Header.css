@@ -1,0 +1,43 @@
+/* .header {
+    width: 100%;
+    font-size: 2rem;
+    color: #2A77AE;
+    margin-bottom: 10px;
+} */
+.title {
+    float: left;
+}
+.scores {
+    float: right;
+}
+/* .App-logo {
+}
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 10vmin;
+    pointer-events: none;
+    float: left;
+  }
+  
+  .header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  } */
+  .header {
+      width: 100%;
+      font-size: 2rem;
+      color: #2A77AE;
+      margin-bottom: 10px;
+  }
+  .title {
+      float: left;
+  }
+  .scores {
+      float: right;
+  }

@@ -15,10 +15,12 @@
     background: #6CADDC;
 }
 .card > .img-container > img {
-    width: 60%;
+    padding-top: 10px;
+    width: 80%;
 }
 .card > .content {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 15px;
+    align-content: center;
 }

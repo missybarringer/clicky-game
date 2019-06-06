@@ -5,20 +5,32 @@
   .header {
     width: 100vw;
     /* background-color: #282c34; */
-    font-size: 2rem;
-    color: #2A77AE;
-    margin-bottom: 10px;
-  }
-  .title {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-    font-size: 44px;
+    font-size: 30px;
     font-weight: bold;
-    float: left;
+    color: #2A77AE;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  }
+  .name {
+    width: 100vw;
+    /* background-color: #282c34; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #2A77AE;
+    margin-bottom: 10px;
     margin-left: 20px;
   }
   .scores {
     float: right;
     margin-right: 20px;
+  }
+  .correctIncorrect {
+    float: left;
+    margin-left: 60px;
   }

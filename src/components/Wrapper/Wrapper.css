@@ -1,6 +1,7 @@
 .wrapper {
     padding-top: 50px;
-    background: #ECEFF1;
+    background-image: url("http://www.webwabisabi.com/img/clicky-game/blue_grid.png");
+    background-repeat: repeat;
     height: 100%;
     display: flex;
     flex-flow: row wrap;

@@ -4,7 +4,6 @@ import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import Title from "./components/Title";
 import cards from "./cards.json";
-import "./App.css";
 
 function randomCards(array) {
   for (let i = array.length - 1; i > 0; i--) {

@@ -4,7 +4,7 @@ import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import Title from "./components/Title";
 import cards from "./cards.json";
-
+// sets up the random cards array
 function randomCards(array) {
   for (let i = array.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
@@ -22,7 +22,7 @@ class App extends Component {
     correctIncorrect: "",
     clicked: [],
   };
-
+// click handler to see if the element's id has been clicked or not & either increments the score & top score or resets the score to 0
  handleClick = id => {
    if (this.state.clicked.indexOf(id) === -1) {
      this.handleIncrement();
@@ -31,7 +31,7 @@ class App extends Component {
      this.handleReset();
    }
   };
-
+// Increment handler increments the score & topscore if the element has not been clicked before
   handleIncrement = () => {
     const newScore = this.state.score + 1;
     this.setState({
@@ -45,7 +45,8 @@ class App extends Component {
     }
     this.handleShuffle();
   };
-
+// Reset handler resets the score to 0 & retains the topscore & gives the user a message "You guessed incorrectly"
+// then call the reshuffle cards function
   handleReset = () => {
     this.setState({
       score: 0,
@@ -55,7 +56,7 @@ class App extends Component {
     });
     this.handleShuffle();
   };
-
+// shuffles the cards again
   handleShuffle = () => {
     let shuffledCards = randomCards(cards);
     this.setState({ cards: shuffledCards });

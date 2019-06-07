@@ -1,68 +1,41 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Clicky-Game
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Contributors
+@missybarringer
+____________________________________
+## Technologies Used
+* React - includes Webpack & Babel
+* Javascript ES6
+* Node.js
+* Express.js
+* HTML5
+* Bootstrap
+* CSS
+** dependencies
+    * react: 16.8.6
+    * react-dom: 16.8.6
+    * react-scripts: 3.0.1
+____________________________________
+## Links
+* [Click here to View the Clicky-Game App in action](https://clickygamevbc.herokuapp.com/)
+* [GitHub Repository Link](https://github.com/missybarringer/clicky-game.git)
+![alt text](http://webwabisabi.com/img/clicky-game/click-game.PNG)
+____________________________________
+## Overview
+This is a web memory game app that a user clicks on an image & gets a point if they haven't clicked on that image before. If they click on the same image twice their high score is retained but the current score is reset to 0 and they have to start the game over.
+____________________________________
+### Technical specifications
+This application demonstrates a full stack application using the MVC model (Model–View–Controller). HTML/CSS and React were used for the front end of the application. The backend of the application was implemented with Node, Express. The application's UI was broken down into components, component state management was handled, and user events were handled & stored on the client-side with React. All of the card components were created in the cards.json file, which contains the id, name, image & count=0 for each card which is imported into the App.js file. Once a user clicks on a card it's count is changed from 0 to 1 & the logic looks to see if that card has been clicked previously. If it has not the the score counter is incremented by 1, if it has already been clicked the High score is retained but the score is reset to 0 & the cards are shuffled again.
+____________________________________
+## License
+*This product is licensed under the MIT License (MIT).
+____________________________________
+## Contributing Guidelines
+All contributions and suggestions are welcome!
+For direct contributions, please fork the repository and file a pull request.
+____________________________________
+## Contact
+* e-mail: barringer.margaret@gmail.com
+* Twitter: @webwabisabi_com
+* Instagram: @webwabisabi_com
+* Added to [Personal Portfolio webpage](https://missybarringer.github.io/)
